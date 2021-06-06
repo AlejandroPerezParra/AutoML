@@ -1,4 +1,4 @@
-# Desarrollo e implementaci?n de un sistema AutoML.
+# Desarrollo e implementación de un sistema AutoML.
 
 El repositorio se divide en dos partes:
 
