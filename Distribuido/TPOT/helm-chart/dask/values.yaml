@@ -90,7 +90,7 @@ worker:
     - name: EXTRA_CONDA_PACKAGES
       value: numba xarray dask-ml matplotlib -c
     - name: EXTRA_PIP_PACKAGES
-      value: tpot dask-ml pytorch
+      value: tpot dask-ml torch
   extraArgs: [] # Extra CLI arguments to be passed to the worker
     # - --preload
     # - worker-setup.py
@@ -158,7 +158,7 @@ jupyter:
     - name: EXTRA_CONDA_PACKAGES
       value: numba xarray dask-ml matplotlib -c
     - name: EXTRA_PIP_PACKAGES
-      value: tpot dask-ml pytorch
+      value: tpot dask-ml torch
   command: null  # Container command.
   args:  # Container arguments.
   #  - "start.sh"
